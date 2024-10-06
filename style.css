@@ -1,9 +1,8 @@
 body {
-    background-color: #282b30;
+    background-color: #032221;
 }
 
-p {
-    color: black;
+p{
     font-size: 22px;
     text-align: center;
     font-family: "mine";
@@ -149,7 +148,7 @@ p {
 .menu {
     height: 64px;
     width: 1256px;
-    background-color: #233757;
+    background-color: #06302b;
     border-radius: 124px;
     display: flex;
     align-items: center;
@@ -174,13 +173,13 @@ p {
     padding: 8px 10px;
     text-transform: uppercase;
     letter-spacing: .27em;
-    color: #000;
+    color: #d3ddd2;
     text-decoration: none;
 }
 
 li :hover {
-    color: #fff;
-    background-color: #123d83;
+    color: #ffffff;
+    background-color: #095544;
     border-radius: 8px;
 }
 
@@ -243,20 +242,20 @@ li :hover {
 
 .game-tile p{
     font-size: 12px; 
-    color: #040404;
+    color: #ffffff;
     padding: 0;
     cursor: pointer;
   }
 
 @font-face {
     font-family: "mine";
-    src: url("fonts/minecraft.ttf") format("truetype");
+    src: url("src/fonts/minecraft.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 } 
 
 @font-face {
     font-family: "akony";
-    src: url("fonts/AKONY.ttf") format("truetype");
+    src: url("src/fonts/AKONY.ttf") format("truetype");
     font-style: italic;
 }
