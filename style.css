@@ -2,11 +2,42 @@ body {
     background-color: #032221;
 }
 
+
+h1{
+    font-size: 33px;
+    text-align: center;
+    font-family: "mine";
+    color: aliceblue;
+}
+
+h2{
+    font-size: 14px;
+    font-family: "mine";
+    color: aliceblue;
+}
+
 p{
     font-size: 22px;
     text-align: center;
     font-family: "mine";
+    color: aliceblue;
 }
+
+.about-box{
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+}
+
+.about{
+    padding-top: 15px;
+    width: 630px;
+}
+
+.paragraphs {
+    text-align: center;
+  }
+  
 
 
 .main-info-button {
@@ -146,6 +177,7 @@ p{
 }
 
 
+
 .menu {
     height: 64px;
     width: 1256px;
@@ -238,7 +270,7 @@ li :hover {
     opacity: 0.9;
     filter: brightness(1.4);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  }
+}
   
 
 .game-tile p{
@@ -246,7 +278,19 @@ li :hover {
     color: #ffffff;
     padding: 0;
     cursor: pointer;
-  }
+}
+
+.game-description{
+    width: 1256PX;
+    display: grid;
+    place-items: center;
+
+
+}
+
+.p-description{
+    font-size: medium;
+}
 
 @font-face {
     font-family: "mine";
