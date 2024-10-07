@@ -108,3 +108,6 @@ gameButtons.forEach(button => {
     gameContent.textContent = gameData.content;
   });
 });
+
+
+

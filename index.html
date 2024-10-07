@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
  <head>
+  <script>
+    const currentUrl = window.location.href;
+    const newUrl = currentUrl.replace(/\.html$/, '');
+    window.history.pushState({}, '', newUrl);
+  </script>
   <link rel="shortcut icon" href="src/images/logo/caterpie-px.png" />
   <meta charset="utf-8">
   <title>Главная</title>
@@ -11,7 +16,7 @@
     <header>
       <section class="menu">
         <ul>
-          <li><a href="index.html">Главная</a></li>
+          <li><a href="https://abbeswrld.ru/">Главная</a></li>
           <li><a href="games.html">Игровые рецензии</a></li>
         </ul>
       </section>
